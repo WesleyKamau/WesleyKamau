@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: tan;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Left align ordered and unordered lists */
+        ol, ul {
+            text-align: left;
+            padding-left: 20px; /* Add padding to adjust the space between the numbers/bullets and the text */
+        }
+
+        /* Ensure visibility of numbers in ordered lists */
+        ol {
+            list-style-type: decimal;
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+
+        h2 {
+            font-size: 2em;
+        }
+
+        .img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+        }
+
+        footer {
+            background-color: gray;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            border-radius: 1.5em;
+            margin-top: 20px;
+        }
+
+        @media screen and (min-width: 600px) {
+            body {
+                background-color: white;
+                margin: 0;
+                padding: 0;
+                text-align: left;
+            }
+
+            .header {
+                background-color: #cc0000;
+                color: #ffffff;
+                padding: 20px;
+                text-align: center;
+            }
+
+            .container {
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            .main-content {
+                padding: 20px;
+            }
+
+            section {
+                background: black;
+                color: white;
+                border-radius: 1em;
+                padding: 1em;
+                position: relative;
+            }
+
+            .section h2 {
+                color: #cc0000;
+            }
+
+            .card {
+                background-color: #ffffff;
+                border: 1px solid #cc0000;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+        }
+
+
+
+    </style>
+
+
+    <title>BUTTERCAKE</title>
+</head>
+<section>
+    <body>
+        <h1>Hello, <span id="name"></span>!</h1>
+        <p>
+            I'd like to tell you about my favorite dessert <i>everrrrrrrr</i>, Butter Cake.
+            Specifically the one served at California Pizza Kitchen. It's a warm, buttery
+            vanilla cake topped with Haagen Dazs ice cream. One of my favorite things about
+            it, though, is the fact that it's meant to be shared with others. I've been wanting
+            to make it myself for a while now (the damn thing is $13 at the restaurant), and I've
+            finally come around to making my own recipe. This cake is amazing, and I encourage you
+            to try the real deal at some point in your life. But for now, I've made one for you.
+            I hope you enjoy it, and I hope you share it with someone special. Also, the ice cream
+            is not a suggestion. Make sure you get some ice cream. Trust me.
+        </p>
+
+        <br>
+
+        <img src="buttercake.jpg"
+        class = "img"
+        width="600px"
+        alt="Butter Cake">
+
+        <br>
+
+        <footer><h2>How to warm the cake up</h2>
+            <br>
+            <h3>Notes</h3>
+            <br>
+            <ul>
+                <li>Keep the cake frozen until you're ready to eat it. This is how they do it at the restaurant, so... yeah.</li>
+                <li>Get some ice cream. They use Vanilla Haagen Dazs at the restaurant, but any vanilla
+                    ice cream will do.
+                </li>
+            </ul>
+            <br>
+            <h3>Instructions:</h3>
+            <br>
+            <ol>
+                <li>Remove from packaging and put the frozen butter cake on a microwave-safe plate.</li>
+                <li>Microwave on high for 45 seconds to 1 minute. The cake should be HOT!</li>
+                <li>Top the the hot Butter Cake with a scoop of Ice Cream.</li>
+                <li>Grab some spoons and enjoy with friends</li>
+            </ol>
+        </footer>
+
+        <script>
+            const urlParams = new URLSearchParams(window.location.search);
+            const username = urlParams.get('name') || "Friend";
+            document.getElementById('name').textContent = username;
+        </script>
+
+    </body>
+</section>
+</html>
+
