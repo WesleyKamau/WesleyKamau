@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Wesley Kamau</h1>
 <h3 align="center">A Computer Science & Engineering student at The Ohio state University</h3>
 
-- 🔭 I’m currently working on **A series of websites**
+- 🔭 I’m currently working on an automated Youtube Archival Project
 
-- 🌱 I’m currently learning **React & Bootstrap**
+- 🌱 I’m currently learning **SQL and Data Analasys**
 
 - 📫 How to reach me **kamau.10@buckeyemail.osu.edu**
 
