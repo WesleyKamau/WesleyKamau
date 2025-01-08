@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on an automated Youtube Archival Project
 
-- 🌱 I’m currently learning **SQL and Data Analasys**
+- 🌱 I’m currently learning **SQL and Data Analysis**
 
 - 📫 How to reach me **kamau.10@buckeyemail.osu.edu**
 
